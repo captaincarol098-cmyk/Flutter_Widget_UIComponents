@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(TabBarDemoOriginal()); // ✅ fixed class name
+  runApp(TabBarDemo());
 }
 
-class TabBarDemoOriginal extends StatelessWidget {
+class TabBarDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -42,3 +42,4 @@ class TabBarDemoOriginal extends StatelessWidget {
     );
   }
 }
+
